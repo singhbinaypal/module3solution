@@ -1,0 +1,33 @@
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
+body {
+    margin: 10px;
+}
+@media only screen and (min-width : 1000px) {
+    .navbar-collapse.hide {
+        display: none!important;
+    }
+}
+.seejpal{
+    background-color: greenyellow;
+}
+.color{
+    background-color: grey;
+}
+h2{
+    text-align: center;
+}
+.container{
+    width: 100%;
+}
+.container > div{
+    background-color: grey;
+    padding: 15px;
+    margin: 10px;
+}
+.chicken, .beef, .sushi h4{
+    text-align: center;
+}
+
+.content_1, .content_2, .content_3{
+    text-align: justify;
+}
